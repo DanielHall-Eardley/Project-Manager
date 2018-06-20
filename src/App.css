@@ -1,0 +1,77 @@
+.title, .sub_title{
+  text-align: center;
+  background-color: powderblue;
+  margin-left: 20vw;
+  margin-right:20vw;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.login{
+  margin-top: 5vh;
+  display:grid;
+  grid-template-columns: 20vw 60vw 20vw;
+  grid-template-rows: 10vh 10vh 10vh 10vh
+}
+
+.input_type{
+  grid-area: 1/2/2/3
+}
+
+.input_email{
+  grid-area: 2/2/3/3
+}
+
+.input_password{
+  grid-area: 3/2/4/3
+}
+
+.submit_button{
+  grid-area: 4/2/5/3;
+  font-size: 2rem
+}
+
+.schedule_grid{
+  display:flex;
+  margin: 2%;
+  height:60vh;
+  border: solid black 1px;
+  overflow: auto;
+}
+
+.navbar{
+  display:grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 8vh;
+  margin: 2vw;
+  background-color: bisque;
+  border-radius: 10px;
+  padding:1%;
+}
+
+.navbar_button{
+
+}
+
+.navbar_info{
+
+}
+
+.submit_task{
+  display:grid;
+  grid-template-columns: 44vw 16vw 16vw 16vw;
+  grid-template-rows: 8vh;
+  margin: 2vw;
+  background-color: bisque;
+  border-radius: 10px;
+  padding:1%;
+}
+
+.individual_day{
+  padding: 1%;
+  border-left: dotted 1px rgb(157, 203, 218);
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-rows: repeat(5, 11vh)
+}
+
